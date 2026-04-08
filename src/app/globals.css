@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --cream: #FAF8F3;
+  --ink: #1A1714;
+  --rust: #C0503A;
+  --rust-light: #F7EDEA;
+  --rust-hover: #A8412E;
+  --muted: #7A7570;
+  --border: #E2DDD6;
+  --gold: #B89A6A;
+  --range-bg: #FFF0ED;
+  --range-border: #E8C4BC;
+  --note-bg: #FDFCF8;
+  --spiral: #C8C3BC;
+  --panel-dark: #2C3B4E;
+  --font-serif: var(--font-playfair), Georgia, serif;
+  --font-sans: var(--font-dm), system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--cream);
+  color: var(--ink);
+  min-height: 100vh;
+}
